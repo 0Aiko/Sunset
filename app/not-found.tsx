@@ -2,9 +2,9 @@ import { Metadata } from "next";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "not found | osu!Sunrise",
+  title: "not found | itai.su",
   openGraph: {
-    title: "not found | osu!Sunrise",
+    title: "not found | itai.su",
     description: "The page you're looking for isn't here. Sorry.",
   },
 };

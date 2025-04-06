@@ -111,7 +111,7 @@ export default function UserStatsChart({ data, value: chartValue }: Props) {
           label={{ value: "Date", position: "insideBottomRight", offset: 0 }}
           tick={{ transform: "translate(0, 6)" }}
           style={{
-            fontSize: "0px",
+	    fill: "#FFFFFF",
           }}
         />
         <YAxis
@@ -120,6 +120,9 @@ export default function UserStatsChart({ data, value: chartValue }: Props) {
             return Math.round(value).toFixed();
           }}
           reversed={isChartReversed}
+	  style={{
+	    fill: "#FFFFFF",
+	  }}
         />
 
         <Area

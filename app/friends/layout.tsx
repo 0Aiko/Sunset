@@ -2,9 +2,9 @@ import { Metadata } from "next";
 import Page from "./page";
 
 export const metadata: Metadata = {
-  title: "Your Friends | osu!Sunrise",
+  title: "Your Friends | itai.su",
   openGraph: {
-    title: "Your Friends | osu!Sunrise",
+    title: "Your Friends | itai.su",
   },
 };
 

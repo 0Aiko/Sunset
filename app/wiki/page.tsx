@@ -36,7 +36,7 @@ export default function Wiki() {
             <li>
               In the target field, add{" "}
               <code className="text-yellow-pastel">
-                -devserver osu-sunrise.top
+                -devserver itai.su
               </code>{" "}
               at the end of the path.
             </li>
@@ -44,7 +44,7 @@ export default function Wiki() {
             <li>Double click on the shortcut to start the game.</li>
           </ol>
           <Image
-            src="/images/wiki/osu-connect.png"
+            src="/images/wiki/osu-connect.png?v=2"
             alt="osu connect image"
             width={800}
             height={200}
@@ -95,7 +95,7 @@ export default function Wiki() {
             restriction by contacting the staff with your case. You can contact
             the staff{" "}
             <a
-              href="https://discord.gg/BjV7c9VRfn"
+              href="https://discord.gg/TwygvCcR"
               className="text-blue-400 hover:underline"
             >
               here
@@ -116,12 +116,12 @@ export default function Wiki() {
           <p className="mt-2">
             If you have any suggestions, please submit them at our{" "}
             <a
-              href="https://github.com/SunriseCommunity"
+              href="https://discord.com/TwygvCcR"
               className="text-blue-400 hover:underline"
             >
-              GitHub
+              Discord
             </a>{" "}
-            page. <br />
+            server. <br />
             Longterm contributors can also have chance to get permanent
             supporter tag.
           </p>

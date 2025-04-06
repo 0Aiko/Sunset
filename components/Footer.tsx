@@ -4,7 +4,7 @@ export default async function Footer() {
   return (
     <footer className="border-t-2 text-white p-4 text-sm text-center space-y-4 bg-terracotta-950">
       <div className="flex justify-center space-x-4">
-        <p>© 2024-2025 Sunrise Community</p>
+        <p>© 2025 itai.su community</p>
         <p>•</p>
         <a
           href="https://github.com/SunriseCommunity"
@@ -31,7 +31,7 @@ export default async function Footer() {
         </a>
         <p>•</p>
         <a
-          href={`https://discord.gg/BjV7c9VRfn`}
+          href={`https://discord.gg/TwygvCcR`}
           className="flex items-center space-x-1 hover:text-stone-400 smooth-transition cursor-pointer"
         >
           <UsersRoundIcon className="mr-1" />

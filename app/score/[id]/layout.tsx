@@ -35,21 +35,21 @@ export async function generateMetadata({
   }
 
   return {
-    title: `${user.username} on ${beatmap.title} [${beatmap.version}] | osu!Sunrise`,
+    title: `${user.username} on ${beatmap.title} [${beatmap.version}] | itai.su`,
     description: `User ${
       user.username
     } has scored ${score.performance_points.toFixed(2)}pp on ${
       beatmap.title
-    } [${beatmap.version}] in osu!Sunrise.`,
+    } [${beatmap.version}] in itai.su.`,
     openGraph: {
-      title: `${user.username} on ${beatmap.title} - ${beatmap.artist} [${beatmap.version}] | osu!Sunrise`,
+      title: `${user.username} on ${beatmap.title} - ${beatmap.artist} [${beatmap.version}] | itai.su`,
       description: `User ${
         user.username
       } has scored ${score.performance_points.toFixed(2)}pp on ${
         beatmap.title
       } - ${beatmap.artist} [${beatmap.version}] ★${getBeatmapStarRating(
         beatmap
-      ).toFixed(2)} ${score.mods} in osu!Sunrise.`,
+      ).toFixed(2)} ${score.mods} in itai.su.`,
       images: [
         `https://assets.ppy.sh/beatmaps/${beatmap.beatmapset_id}/covers/list@2x.jpg`,
       ],
