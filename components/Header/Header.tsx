@@ -42,7 +42,7 @@ export default function Header() {
           {/* Brand */}
           <a href="/" className="smooth-transition">
             <h1 className="text-4xl font-semibold text-white smooth-transition pb-1 cursor-pointer flex flex-row">
-              <p className="text-wine-900">itai</p>
+              <p className="text-wine">itai</p>
               su
             </h1>
           </a>
