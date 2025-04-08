@@ -31,7 +31,7 @@ export default async function Footer() {
         </a>
         <p>•</p>
         <a
-          href={`https://discord.gg/TwygvCcR`}
+          href={`https://discord.gg/juVdaDg9k6`}
           className="flex items-center space-x-1 hover:text-stone-400 smooth-transition cursor-pointer"
         >
           <UsersRoundIcon className="mr-1" />
