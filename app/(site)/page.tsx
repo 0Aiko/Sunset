@@ -43,22 +43,40 @@ export default function Home() {
           Features
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-          <div className="bg-winecoffee hover:bg-winecoffee-600 hover:scale-105 p-4 rounded-lg smooth-transition">
-            <h3 className="text-2xl font-bold text-white">Leaderboards</h3>
-            <p className="text-white">
+          <div className="bg-winecoffee group hover:bg-terracotta-750 hover:scale-105 p-4 rounded-lg smooth-transition">
+            <h3 className="text-2xl font-bold text-white group-hover:text-gray-300">Leaderboards</h3>
+            <p className="text-white group-hover:text-gray-300">
               Compete with other players to see who is the best!
             </p>
           </div>
-          <div className="bg-winecoffee hover:bg-winecoffee-600 hover:scale-105 p-4 rounded-lg smooth-transition">
-            <h3 className="text-2xl font-bold text-white">Multiplayer</h3>
-            <p className="text-white">
+          <div className="bg-winecoffee group hover:bg-terracotta-750 hover:scale-105 p-4 rounded-lg smooth-transition">
+            <h3 className="text-2xl font-bold text-white group-hover:text-gray-300">Multiplayer</h3>
+            <p className="text-white group-hover:text-gray-300">
               Play with your friends in real-time multiplayer matches!
             </p>
           </div>
-          <div className="bg-winecoffee hover:bg-winecoffee-600 hover:scale-105 p-4 rounded-lg smooth-transition">
-            <h3 className="text-2xl font-bold text-white">Customization</h3>
-            <p className="text-white">
+          <div className="bg-winecoffee group hover:bg-terracotta-750 hover:scale-105 p-4 rounded-lg smooth-transition">
+            <h3 className="text-2xl font-bold text-white group-hover:text-gray-300">Customization</h3>
+            <p className="text-white group-hover:text-gray-300">
               Customize your profile and gameplay to your liking!
+            </p>
+          </div>
+          <div className="bg-winecoffee group hover:bg-terracotta-750 hover:scale-105 p-4 rounded-lg smooth-transition">
+            <h3 className="text-2xl font-bold text-white group-hover:text-gray-300">Relax, Autopilot and ScoreV2 PP</h3>
+            <p className="text-white group-hover:text-gray-300">
+              Play with mods that don't give PP on the official server!
+            </p>
+          </div>
+          <div className="bg-winecoffee group hover:bg-terracotta-750 hover:scale-105 p-4 rounded-lg smooth-transition">
+            <h3 className="text-2xl font-bold text-white group-hover:text-gray-300">Free Osu!Direct</h3>
+            <p className="text-white group-hover:text-gray-300">
+              Download maps in-game and play without any restrictions!
+            </p>
+          </div>
+          <div className="bg-winecoffee group hover:bg-terracotta-750 hover:scale-105 p-4 rounded-lg smooth-transition">
+            <h3 className="text-2xl font-bold text-white group-hover:text-gray-300">Communication</h3>
+            <p className="text-white group-hover:text-gray-300">
+              Developers are always in touch with players, we always listen to your opinion!
             </p>
           </div>
         </div>

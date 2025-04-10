@@ -11,7 +11,7 @@ export default function Wiki() {
       <PrettyHeader
         text="Wiki"
         icon={<BookCopy />}
-        className="bg-terracotta-700 mb-4"
+        className="bg-terracotta-650 mb-4"
         roundBottom={true}
       />
 

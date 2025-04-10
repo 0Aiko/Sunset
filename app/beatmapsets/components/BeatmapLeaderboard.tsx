@@ -31,10 +31,10 @@ export default function BeatmapLeaderboard({
             <thead>
               <tr className="bg-terracotta-500 text-left">
                 <th className="p-2">Rank</th>
-                <th className="p-2"></th>
+                <th className="p-2">Player</th>
+                <th className="p-2">Grade</th>
                 <th className="p-2">Score</th>
                 <th className="p-2">Accuracy</th>
-                <th className="p-2">Player</th>
                 <th className="p-2">Combo</th>
                 <th className="p-2">300</th>
                 <th className="p-2">100</th>
@@ -68,6 +68,9 @@ export default function BeatmapLeaderboard({
                   }}
                 >
                   <td className="p-2 text-lg font-bold">#{index + 1}</td>
+                  <td className="p-2  truncate overflow-hidden whitespace-nowrap max-w-28">
+                    <span>{score.user.username}</span>
+                  </td>
                   <td
                     className={`text-${getGradeColor(
                       score.grade
@@ -83,9 +86,6 @@ export default function BeatmapLeaderboard({
                     )}
                   >
                     {score.accuracy.toFixed(2)}%
-                  </td>
-                  <td className="p-2  truncate overflow-hidden whitespace-nowrap max-w-28">
-                    <span>{score.user.username}</span>
                   </td>
                   <td
                     className={twMerge(

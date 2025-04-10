@@ -29,11 +29,11 @@ export default function Topplays() {
       <PrettyHeader
         text="Top plays"
         icon={<LucideHistory />}
-        className="mb-4"
+        className="mb-4 bg-terracotta-650"
         roundBottom={true}
       />
 
-      <PrettyHeader>
+      <PrettyHeader className="bg-terracotta-650" >
         <GameModeSelector
           activeMode={activeMode}
           setActiveMode={setActiveMode}
@@ -47,7 +47,7 @@ export default function Topplays() {
       )}
 
       {!isLoading && scores && (
-        <div className="bg-coffee-600 rounded-b-3xl mb-4">
+        <div className="bg-terracotta-650 rounded-b-3xl mb-4">
           <RoundedContent className="min-h-0 h-fit max-h-none rounded-t-xl">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
               {scores?.map((score) => (

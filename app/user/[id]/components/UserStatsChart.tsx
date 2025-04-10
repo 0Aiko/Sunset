@@ -108,21 +108,24 @@ export default function UserStatsChart({ data, value: chartValue }: Props) {
         <CartesianGrid stroke="" />
         <XAxis
           dataKey="date"
-          label={{ value: "Date", position: "insideBottomRight", offset: 0 }}
           tick={{ transform: "translate(0, 6)" }}
+          tickLine={{ stroke: "#FFFFFF" }}
           style={{
-	    fill: "#FFFFFF",
+	        fill: "#FFFFFF",
           }}
+          axisLine={{ stroke: "#FFFFFF" }}
         />
         <YAxis
           type="number"
           tickFormatter={(value: number, index: number) => {
             return Math.round(value).toFixed();
           }}
+          tickLine={{ stroke: "#FFFFFF" }}
           reversed={isChartReversed}
-	  style={{
-	    fill: "#FFFFFF",
-	  }}
+	        style={{
+	        fill: "#FFFFFF",
+	        }}
+          axisLine={{ stroke: "#FFFFFF" }}
         />
 
         <Area

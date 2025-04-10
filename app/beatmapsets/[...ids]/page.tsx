@@ -239,7 +239,7 @@ export default function Beatmapset({ params }: BeatmapsetProps) {
         </div>
       </RoundedContent>
 
-      <RoundedContent className="mb-4 bg-terracotta-600 rounded-b-lg p-0 space-y-2">
+      <RoundedContent className="mb-4 bg-terracotta-750 rounded-b-lg p-0 space-y-2">
         <RoundedContent className="px-4 pt-4 pb-0 min-h-72 max-h-72 h-72 flex bg-terracotta-600 place-content-between space-x-2 mb-4">
           <div className="flex flex-col w-2/4 ">
             <PrettyHeader
