@@ -95,7 +95,7 @@ export default function Wiki() {
             restriction by contacting the staff with your case. You can contact
             the staff{" "}
             <a
-              href="https://discord.gg/TwygvCcR"
+              href="https://discord.gg/juVdaDg9k6"
               className="text-blue-400 hover:underline"
             >
               here
@@ -116,7 +116,7 @@ export default function Wiki() {
           <p className="mt-2">
             If you have any suggestions, please submit them at our{" "}
             <a
-              href="https://discord.com/TwygvCcR"
+              href="https://discord.gg/juVdaDg9k6"
               className="text-blue-400 hover:underline"
             >
               Discord
